@@ -1,0 +1,8 @@
+P = float (input("enter the amount of principle (P):"))
+T = float (input("enter the time period in years (T):"))
+R = float (input ("enter the rate of interst per year (R):"))
+
+SI = (P * T * R) / 100
+
+print(f"the simple interest is: {SI}")
+print(f"the total amount (principle + interest)is:{P + SI}")

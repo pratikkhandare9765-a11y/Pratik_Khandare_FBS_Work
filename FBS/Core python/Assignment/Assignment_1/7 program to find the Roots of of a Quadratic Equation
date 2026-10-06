@@ -1,0 +1,22 @@
+import cmath
+
+a = float (input("enter the value of a: "))
+b = float (input("enter the value of b: "))
+c = float (input("enter the value of c: "))
+
+d = b**2 - 4*a*c
+
+if d > 0 :
+    root1 = (-b + d**0.5) / (2*a)
+    root2 = (-b - d**0.5) / (2*a)
+    print("Roots are:, root1, "and", root2")
+          
+elif d == 0:
+    root = -b / (2*a)
+    print("Both roots are equal:, root")
+
+else:
+     roots1= (-b + cmath.sqrt(d)) / (2*a)
+     roots2= (-b - cmath.sqrt(d)) / (2*a)
+     print("Roots are equal:, root")
+

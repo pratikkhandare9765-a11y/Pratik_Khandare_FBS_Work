@@ -1,0 +1,17 @@
+print ("Entert he marks for 5 subject")
+subject1= float (input("subject 1:"))
+subject2= float (input("subject 2:"))
+subject3= float (input("subject 3:"))
+subject4= float (input("subject 4:"))
+subject5= float (input("subject 5:"))
+
+max_marks_per_subject = float (input("enter maximum marks possible per subject:"))
+
+total_obtained = subject1 + subject2 + subject3 + subject4 + subject5
+total_maximum = max_marks_per_subject * 5
+
+persentage = (total_obtained / total_maximum) * 100
+
+print("\n result ")
+print(f"toatl marks obtained: {total_obtained} / {total_maximum}")
+print(f"persentage: {persentage:.2f}%")

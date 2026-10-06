@@ -1,0 +1,17 @@
+def convert_days(total_days):
+    years = total_days // 365 
+
+    remaining_days_after_years = total_days % 365
+
+    weeks = remaining_days_after_years // 7 
+
+    days = remaining_days_after_years % 7
+
+    return years , weeks, days
+
+input_days = 1329
+
+years , weeks, days = convert_days(input_days)
+
+print(f"{input_days}days is equal to:")
+print(f"{years} year (s),{weeks} week(s), and {days} day(s)")

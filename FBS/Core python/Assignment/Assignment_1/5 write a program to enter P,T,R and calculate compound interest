@@ -1,0 +1,11 @@
+P = float (input("enter the amount of principle (P):"))
+T = float (input("enter the time period in years (T):"))
+R = float (input ("enter the rate of interst per annum (R):"))
+
+Amount = P * ((1 + R / 100)** T)
+
+CI = Amount - P
+
+print(f"the compund interest earne is: {CI:.2f}")
+print(f"the total amount (principle + interest) is: {Amount: .2f}")
+

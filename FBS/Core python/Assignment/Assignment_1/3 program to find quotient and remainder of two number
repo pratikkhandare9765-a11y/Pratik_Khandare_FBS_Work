@@ -1,0 +1,9 @@
+dividend= int (input("enter the dividend (number to divide):"))
+divisor = int (input("enter the divisor (number to divide by):"))
+
+quotient = dividend // divisor
+remainder = dividend % divisor
+
+
+print(f"Quotient: {quotient}")
+print(f"remiander: {remainder}")

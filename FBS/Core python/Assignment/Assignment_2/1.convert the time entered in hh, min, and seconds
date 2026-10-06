@@ -1,0 +1,7 @@
+
+hh = int(input("enter hours:"))
+mm = int(input("enter minutes:"))
+ss = int(input("enter seconds:"))
+
+total_second = (hh * 3600) + (mm * 60) + ss
+print("total time in seconds = ", total_second)
